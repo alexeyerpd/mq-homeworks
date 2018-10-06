@@ -7,11 +7,11 @@
 }
 
 .card {
-  width: calc(50% - 62px);
-  /* можно было оставить 50% и добавить box-sizing: border-box */
-  padding: 30px 20px;
-  border: 1px solid #d5d4d4;
+  width: 50%;
   margin-bottom: 20px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 1px solid #d5d4d4;
 }
 
 .card:nth-child(even) {
