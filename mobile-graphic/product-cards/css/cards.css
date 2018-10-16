@@ -1,6 +1,5 @@
 .product__footer {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -18,10 +17,5 @@
   .product:nth-child(3n - 1) {
     margin-right: 2%;
     margin-left: 2%;
-  }
-
-  .product__footer {
-    display: flex;
-    align-items: flex-end;
   }
 }
