@@ -1,0 +1,10 @@
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
